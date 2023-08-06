@@ -22,12 +22,6 @@ class App extends Component {
     this.maxId=4;
   }
 
-  // const data = [
-  //   {name: "John C.", salary: 800, id:1},
-  //   {name: "Alex M.", salary: 3000, id:2},
-  //   {name: "Carl W.", salary: 5000, id:3},
-  // ];
-
   deleteItem=(id)=>{
     this.setState(({data})=>{
       // const index=data.findIndex(elem=>elem.id===id);
